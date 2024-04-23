@@ -1,0 +1,87 @@
+body{
+    background-color: #f2f2f2;
+}
+header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+header h1{
+    font-family:sans-serif;
+    font-size: 36px;
+}
+header p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+header p span{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.card1{
+    padding-left: 50px;
+    width: 66%;
+}
+.card1 h1{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.card1-body h5{
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+.card1-body{
+    padding: 15px;
+    width: 670px;
+    background-color: white;
+}
+.card1-body p{
+    width: 700;
+    height: 67;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.btn{
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 10px;
+}
+.btn:hover{
+    background-color:#616161;
+    cursor: pointer;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment b{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+ul li:hover{
+    background-color: #c0c0c2;
+}
+.footer{
+    background-color: #616161;
+    width: 1903px;
+    height: 179px;
+    margin-top: 50px;
+}
+.next{
+    padding: 15px; 
+    background-color: black; 
+    color: white;
+}
+.next:hover{
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+.previous:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
